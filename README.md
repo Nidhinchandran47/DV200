@@ -62,6 +62,7 @@ cd DV200
 Make sure your environment is equipped with:
 - **Verilog/SystemVerilog Compiler**: Tools like Synopsys VCS, Cadence Xcelium, or ModelSim.
 - **Simulator**: To run the compiled designs.
+  
 Or you can use online tools like **EDA Playground**
 
 
