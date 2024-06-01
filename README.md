@@ -1,6 +1,6 @@
 # 🎉 DV200: The Ultimate RTL Design and Verification Playground 🛠️
 
-Welcome to **DV200**, your go-to repository for exploring, learning, and mastering RTL design and verification. Whether you're a seasoned hardware engineer or a curious beginner, DV200 offers a variety of simple yet illustrative digital designs and their corresponding verification code. Let's dive into the digital world, one flip-flop at a time!
+Welcome to **DV200**, your go-to repository for exploring, learning, and mastering RTL design and verification. Whether you're a seasoned hardware engineer or a curious beginner, DV200 offers a variety of simple yet illustrative digital designs and their corresponding verification code. Let's dive into the fascinating world of digital logic, flip some bits, and learn through hands-on experimentation. Let's make circuits and have fun! 🚀🔧
 
 ## Table of Contents
 - [Why DV200?](#why-dv200)
