@@ -8,10 +8,7 @@ Welcome to **DV200**, your go-to repository for exploring, learning, and masteri
 - [Getting Started](#getting-started)
 - [Toolchain Requirements](#toolchain-requirements)
 - [How to Use](#how-to-use)
-  - [Compile a Design](#compile-a-design)
-  - [Run a Simulation](#run-a-simulation)
 - [Contribute](#contribute)
-- [License](#license)
 - [Contact Us](#contact-us)
 
 ## Why DV200? 🤔
@@ -57,44 +54,29 @@ Ensure you have the following tools:
 
 ### Clone the Repository 🖥️
 ```bash
-git clone https://github.com/yourusername/dv200.git
-cd dv200
+git clone https://github.com/Nidhinchandran47/DV200.git
+cd DV200
 ```
 
 ## Toolchain Requirements 🧰
 Make sure your environment is equipped with:
 - **Verilog/SystemVerilog Compiler**: Tools like Synopsys VCS, Cadence Xcelium, or ModelSim.
 - **Simulator**: To run the compiled designs.
+Or you can use online tools like **EDA Playground**
 
-## How to Use 🧑‍💻
-### Compile a Design ⚙️
-Navigate to the specific design directory and use the provided script:
-```bash
-cd designs/adder
-../../scripts/compile_design.sh adder.v
-```
-
-### Run a Simulation 🎬
-Execute the simulation for the desired testbench:
-```bash
-cd designs/adder
-../../scripts/run_simulation.sh adder_tb.sv
-```
 
 ## Contribute 💡
 Join the DV200 community and help us grow! Here's how:
 1. **Fork the repository**: Create your own copy on GitHub. 🍴
 2. **Create a branch**: `git checkout -b my-feature-branch` 🌿
-3. **Make your changes**: Improve designs, add features, fix bugs. 🔧
+3. **Make your changes**: Improve designs, add features, new designs, fix bugs. 🔧
 4. **Commit your changes**: `git commit -m 'Add some feature'` 📝
 5. **Push to your branch**: `git push origin my-feature-branch` 🚀
 6. **Open a pull request**: We'll review and merge your changes. 🔍
 
-## License 📜
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact Us 📬
-Have questions or feedback? We'd love to hear from you! Reach out at [your-email@example.com](mailto:your-email@example.com).
+## Contact Me 📬
+Have questions or feedback or do you find and mistake here? I love to hear from you! Reach out at [nidhinchandran470@gmail.com](mailto:nidhinchandran470@gmail.com).
 
 ---
 
