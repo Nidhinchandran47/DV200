@@ -19,29 +19,14 @@ DV200 is more than just a collection of RTL designs. It's an educational playgro
 
 ## Repository Layout 🗂️
 The structure of the DV200 repository is designed for clarity and ease of use:
-```
-├── designs
-│   ├── adder
-│   │   ├── adder.v
-│   │   └── adder_tb.sv
-│   ├── counter
-│   │   ├── counter.v
-│   │   └── counter_tb.sv
-│   ├── multiplexer
-│   │   ├── multiplexer.v
-│   │   └── multiplexer_tb.sv
-│   └── [additional designs]
-├── scripts
-│   ├── run_simulation.sh
-│   └── compile_design.sh
-├── docs
-│   ├── README_adder.md
-│   ├── README_counter.md
-│   ├── README_multiplexer.md
-│   └── [additional design documentation]
-├── .gitignore
-└── README.md
-```
+
+ - <details>
+    <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>Basic</b> </a> 🔻 </summary>
+    
+    - 1. [AND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
+    - 2. [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20OR%20Gate)
+        
+    </details>
 
 ## Getting Started 🏁
 Follow these steps to dive into the DV200 universe:
