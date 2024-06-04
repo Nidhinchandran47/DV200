@@ -23,8 +23,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
  - <details>
     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>Basic</b> </a> 🔻 </summary>
     
-    - 1. [AND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
-    - 2. [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20OR%20Gate)
+    - 1 . [AND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
+    - 2 . [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/2.%20OR%20Gate)
         
     </details>
 
