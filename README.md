@@ -3,19 +3,13 @@
 Welcome to **DV200**, your go-to repository for exploring, learning, and mastering RTL design and verification. Whether you're a seasoned hardware engineer or a curious beginner, DV200 offers a variety of simple yet illustrative digital designs and their corresponding verification code. Let's dive into the fascinating world of digital logic, flip some bits, and learn through hands-on experimentation. Let's make circuits and have fun! 🚀🔧
 
 ## Table of Contents
-- [Why DV200?](#why-dv200)
 - [Repository Layout](#repository-layout)
+- [Why DV200?](#why-dv200)
 - [Getting Started](#getting-started)
 - [Toolchain Requirements](#toolchain-requirements)
 - [How to Use](#how-to-use)
 - [Contribute](#contribute)
 - [Contact Us](#contact-us)
-
-## Why DV200? 🤔
-DV200 is more than just a collection of RTL designs. It's an educational playground:
-- **Learn by Doing**: Hands-on examples of digital circuits. 🚀
-- **End-to-End Projects**: Each design comes with a testbench, promoting a thorough understanding of both design and verification. 📚
-- **Community Driven**: Contributions are welcome, making it a collaborative effort. 🤝
 
 ## Repository Layout 🗂️
 The structure of the DV200 repository is designed for clarity and ease of use:
@@ -27,6 +21,14 @@ The structure of the DV200 repository is designed for clarity and ease of use:
     - 2 . [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/2.%20OR%20Gate)
         
     </details>
+
+
+## Why DV200? 🤔
+DV200 is more than just a collection of RTL designs. It's an educational playground:
+- **Learn by Doing**: Hands-on examples of digital circuits. 🚀
+- **End-to-End Projects**: Each design comes with a testbench, promoting a thorough understanding of both design and verification. 📚
+- **Community Driven**: Contributions are welcome, making it a collaborative effort. 🤝
+
 
 ## Getting Started 🏁
 Follow these steps to dive into the DV200 universe:
