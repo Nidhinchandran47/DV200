@@ -20,6 +20,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
     - 1 . [AND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
     - 2 . [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/2.%20OR%20Gate)
     - 3 . [NOT Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/3.%20NOT%20Gate)
+    - 4 . [NAND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/4.%20NAND%20Gate)
+    - 5 . [NOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/5.%20NOR%20Gate)
         
     </details>
 
