@@ -21,13 +21,13 @@ In Verilog, there are several ways to implement an OR gate. Here are a few metho
 
 #### Implementation Methods
 
-1. **Using `assign` Statement:**
+1. **Using assign Statement:**
    
    This is the most straightforward way to implement an OR gate in Verilog using continuous assignment.
 
    > [or_gate.v](or_gate.v)
 
-2. **Using `always` Block:**
+2. **Using always Block:**
    
    The `always` block is used for procedural assignments. This method is more illustrative for learning and complex logic, although not typical for simple gates.
 
