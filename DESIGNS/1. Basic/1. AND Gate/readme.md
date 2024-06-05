@@ -52,3 +52,41 @@ Generate statements are useful for creating multiple instances of a gate, often 
 ### Testbench
 
 A simple testbench is here [and_gate_tb.v](and_gate_tb.v) to simulate `and_gate` . By replacing the module name we can simulate other designes too.
+
+## Properties of AND Gate
+
+An AND gate is a fundamental digital logic gate that outputs true or high (1) only when all its inputs are true or high. Here are some key properties:
+
+### Idempotent Law
+- **Formula:** `A AND A = A`
+- **Example:** If `A = 1`, then `1 AND 1 = 1`.
+
+### Identity Law
+- **Formula:** `A AND 1 = A`
+- **Example:** If `A = 0`, then `0 AND 1 = 0`.
+
+### Domination Law
+- **Formula:** `A AND 0 = 0`
+- **Example:** Regardless of `A`, the result is always 0.
+
+### Commutative Law
+- **Formula:** `A AND B = B AND A`
+- **Example:** `0 AND 1 = 1 AND 0 = 0`.
+
+### Associative Law
+- **Formula:** `(A AND B) AND C = A AND (B AND C)`
+- **Example:** `(1 AND 0) AND 1 = 1 AND (0 AND 1) = 0`.
+
+### Distributive Law
+- **Formula:** `A AND (B OR C) = (A AND B) OR (A AND C)`
+- **Example:** `1 AND (0 OR 1) = (1 AND 0) OR (1 AND 1) = 0 OR 1 = 1`.
+
+### Absorption Law
+- **Formula:** `A AND (A OR B) = A`
+- **Example:** `0 AND (0 OR 1) = 0`.
+
+### Negation Law
+- **Formula:** `A AND NOT(A) = 0`
+- **Example:** If `A = 1`, then `1 AND NOT(1) = 1 AND 0 = 0`.
+
+These properties are foundational in digital logic design and are used to simplify and analyze complex logic circuits.
