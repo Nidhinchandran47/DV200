@@ -53,3 +53,41 @@ Each method has its specific use case depending on the complexity of the design 
 ### Teatbench
 
 A simple testbench is here [or_gate_tb.v](or_gate_tb.v) to simulate `or_gate` . By replacing the module name we can simulate other designes too.
+
+## Properties of OR Gate
+
+An OR gate is a fundamental digital logic gate that outputs true or high (1) when at least one of its inputs is true or high. Here are some key properties:
+
+### Idempotent Law
+- **Formula:** `A OR A = A`
+- **Example:** If `A = 1`, then `1 OR 1 = 1`.
+
+### Identity Law
+- **Formula:** `A OR 0 = A`
+- **Example:** If `A = 1`, then `1 OR 0 = 1`.
+
+### Domination Law
+- **Formula:** `A OR 1 = 1`
+- **Example:** Regardless of `A`, the result is always 1.
+
+### Commutative Law
+- **Formula:** `A OR B = B OR A`
+- **Example:** `0 OR 1 = 1 OR 0 = 1`.
+
+### Associative Law
+- **Formula:** `(A OR B) OR C = A OR (B OR C)`
+- **Example:** `(1 OR 0) OR 1 = 1 OR (0 OR 1) = 1`.
+
+### Distributive Law
+- **Formula:** `A OR (B AND C) = (A OR B) AND (A OR C)`
+- **Example:** `1 OR (0 AND 1) = (1 OR 0) AND (1 OR 1) = 1 AND 1 = 1`.
+
+### Absorption Law
+- **Formula:** `A OR (A AND B) = A`
+- **Example:** `1 OR (1 AND 0) = 1`.
+
+### Negation Law
+- **Formula:** `A OR NOT(A) = 1`
+- **Example:** If `A = 0`, then `0 OR NOT(0) = 0 OR 1 = 1`.
+
+These properties are foundational in digital logic design and are used to simplify and analyze complex logic circuits.
