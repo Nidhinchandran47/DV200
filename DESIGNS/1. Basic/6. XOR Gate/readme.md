@@ -3,9 +3,9 @@
 
 An XOR (Exclusive OR) gate is a digital logic gate that outputs true or high (1) only when the number of true or high inputs is odd. It essentially performs the addition of two binary digits without carrying.
 The XOR gate is widely used in arithmetic circuits, error detection, and data processing systems. Its unique behavior of outputting true only when inputs differ makes it crucial in various digital applications.
-
-> A ⊕ B = A'B + AB'
-
+```math
+ A \oplus B = A\overline{B} + \overline{A}B
+```
 **Symbol:**
 
 ![alt text](image.png)
