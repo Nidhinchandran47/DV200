@@ -30,10 +30,10 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 - <details>
     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational"> <b>Combinational </b> </a> 🔻 </summary>
     
-    - 1 . [Half Adder](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
-    - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/2.%20OR%20Gate)
-    - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/3.%20NOT%20Gate)
-    - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/4.%20NAND%20Gate)
+    - 1 . [Half Adder](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/1.%20Half%20Adder)
+    - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/2.%20Full%20Adder)
+    - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/3.%20Half%20Subtractor)
+    - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/4.%20Full%20Subtractor)
    
         
     </details>
