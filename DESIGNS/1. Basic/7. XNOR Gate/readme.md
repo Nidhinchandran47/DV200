@@ -4,7 +4,7 @@
 
 An XNOR (Exclusive NOR) gate is a digital logic gate that outputs true or high (1) only when the number of true or high inputs is even. It essentially performs comparing of 2 bits, whether equal or not.
 
-> A ⨀ B = A'B' + AB
+$A \odot B = \overline{A} \overline{B} + A B$
 
 **Symbol:**
  
