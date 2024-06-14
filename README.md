@@ -34,7 +34,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
     - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/2.%20Full%20Adder)
     - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/3.%20Half%20Subtractor)
     - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/4.%20Full%20Subtractor)
-   
+    - 5 . [Adder cum Subtractor](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/5.%20Adder%20cum%20subtractor)
+    - 6 . [2 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/6.%202%20to%201%20MUX)
         
     </details>
 
