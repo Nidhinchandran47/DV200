@@ -14,6 +14,7 @@ Welcome to **DV200**, your go-to repository for exploring, learning, and masteri
 ## Repository Layout 🗂️
 The structure of the DV200 repository is designed for clarity and ease of use:
 
+ -  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>How to write Verilog Code</b> </a> 
  - <details>
     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>Basic</b> </a> 🔻 </summary>
     
