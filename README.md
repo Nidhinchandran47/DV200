@@ -24,7 +24,9 @@ The structure of the DV200 repository is designed for clarity and ease of use:
     - 4 . [NAND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/4.%20NAND%20Gate)
     - 5 . [NOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/5.%20NOR%20Gate)
     - 6 . [XOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/6.%20XOR%20Gate)
-    - 7 . [XNOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/7.%20XNOR%20Gate)   
+    - 7 . [XNOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/7.%20XNOR%20Gate)
+    - 8 . [2 to 4 Decoder ]()
+    - 9 . [4 to 8 Decoder ]()  
     </details>
 
 
