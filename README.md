@@ -25,8 +25,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
     - 5 . [NOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/5.%20NOR%20Gate)
     - 6 . [XOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/6.%20XOR%20Gate)
     - 7 . [XNOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/7.%20XNOR%20Gate)
-    - 8 . [2 to 4 Decoder ]()
-    - 9 . [4 to 8 Decoder ]()  
+       
     </details>
 
 
@@ -41,6 +40,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
     - 6 . [2 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/6.%202%20to%201%20MUX)
     - 7 . [4 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/7.%204%20to%201%20MUX)
     - 8 . [8 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/8.%208%20to%201%20MUX)
+    - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/9.%202%20to%204%20Decoder)
+    - 10 . [4 to 8 Decoder ]() 
         
     </details>
 
