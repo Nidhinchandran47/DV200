@@ -14,37 +14,41 @@ Welcome to **DV200**, your go-to repository for exploring, learning, and masteri
 ## Repository Layout 🗂️
 The structure of the DV200 repository is designed for clarity and ease of use:
 
- -  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>How to write Verilog Code</b> </a> 
- - <details>
-    <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>Basic</b> </a> 🔻 </summary>
-    
-    - 1 . [AND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
-    - 2 . [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/2.%20OR%20Gate)
-    - 3 . [NOT Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/3.%20NOT%20Gate)
-    - 4 . [NAND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/4.%20NAND%20Gate)
-    - 5 . [NOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/5.%20NOR%20Gate)
-    - 6 . [XOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/6.%20XOR%20Gate)
-    - 7 . [XNOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/7.%20XNOR%20Gate)
-       
-    </details>
-
-
-- <details>
-    <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational"> <b>Combinational </b> </a> 🔻 </summary>
-    
-    - 1 . [Half Adder](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/1.%20Half%20Adder)
-    - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/2.%20Full%20Adder)
-    - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/3.%20Half%20Subtractor)
-    - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/4.%20Full%20Subtractor)
-    - 5 . [Adder cum Subtractor](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/5.%20Adder%20cum%20subtractor)
-    - 6 . [2 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/6.%202%20to%201%20MUX)
-    - 7 . [4 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/7.%204%20to%201%20MUX)
-    - 8 . [8 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/8.%208%20to%201%20MUX)
-    - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/9.%202%20to%204%20Decoder)
-    - 10 . [4 to 8 Decoder ]() 
-        
-    </details>
-
+> [!IMPORTANT]
+>  -  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>How to write Verilog Code</b> </a> 
+>  - <details>
+>     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic"> <b>Basic</b> </a> 🔻 </summary>
+>     
+>     - 1 . [AND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/1.%20AND%20Gate)
+>     - 2 . [OR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/2.%20OR%20Gate)
+>     - 3 . [NOT Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/3.%20NOT%20Gate)
+>     - 4 . [NAND Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/4.%20NAND%20Gate)
+>     - 5 . [NOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/5.%20NOR%20Gate)
+>     - 6 . [XOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/6.%20XOR%20Gate)
+>     - 7 . [XNOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/7.%20XNOR%20Gate)
+>        
+>     </details>
+> 
+> 
+> - <details>
+>     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational"> <b>Combinational </b> </a> 🔻 </summary>
+>     
+>     - 1 . [Half Adder](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/1.%20Half%20Adder)
+>     - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/2.%20Full%20Adder)
+>     - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/3.%20Half%20Subtractor)
+>     - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/4.%20Full%20Subtractor)
+>     - 5 . [Adder cum Subtractor](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/5.%20Adder%20cum%20subtractor)
+>     - 6 . [2 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/6.%202%20to%201%20MUX)
+>     - 7 . [4 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/7.%204%20to%201%20MUX)
+>     - 8 . [8 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/8.%208%20to%201%20MUX)
+>     - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/9.%202%20to%204%20Decoder)
+>     - 10 . [4 to 8 Decoder ]() 
+>         
+>     </details>
+> 
+> 
+> 
+> 
 
 ## Why DV200? 🤔
 DV200 is more than just a collection of RTL designs. It's an educational playground:
