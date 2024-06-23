@@ -3,13 +3,16 @@
 Welcome to **DV200**, your go-to repository for exploring, learning, and mastering RTL design and verification. Whether you're a seasoned hardware engineer or a curious beginner, DV200 offers a variety of simple yet illustrative digital designs and their corresponding verification code. Let's dive into the fascinating world of digital logic, flip some bits, and learn through hands-on experimentation. Let's make circuits and have fun! 🚀🔧
 
 ## Table of Contents
-- [Repository Layout](#repository-layout)
-- [Why DV200?](#why-dv200)
-- [Getting Started](#getting-started)
-- [Toolchain Requirements](#toolchain-requirements)
-- [How to Use](#how-to-use)
-- [Contribute](#contribute)
-- [Contact Us](#contact-us)
+- [🎉 DV200: The Ultimate RTL Design and Verification Playground 🛠️](#-dv200-the-ultimate-rtl-design-and-verification-playground-️)
+  - [Table of Contents](#table-of-contents)
+  - [Repository Layout 🗂️](#repository-layout-️)
+  - [Why DV200? 🤔](#why-dv200-)
+  - [Getting Started 🏁](#getting-started-)
+    - [Prerequisites 🛠️](#prerequisites-️)
+    - [Clone the Repository 🖥️](#clone-the-repository-️)
+  - [Toolchain Requirements 🧰](#toolchain-requirements-)
+  - [Contribute 💡](#contribute-)
+  - [Contact Me 📬](#contact-me-)
 
 ## Repository Layout 🗂️
 The structure of the DV200 repository is designed for clarity and ease of use:
@@ -33,16 +36,16 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 > - <details>
 >     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational"> <b>Combinational </b> </a> 🔻 </summary>
 >     
->     - 1 . [Half Adder](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/1.%20Half%20Adder)
->     - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/2.%20Full%20Adder)
->     - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/3.%20Half%20Subtractor)
->     - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/4.%20Full%20Subtractor)
->     - 5 . [Adder cum Subtractor](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/5.%20Adder%20cum%20subtractor)
->     - 6 . [2 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/6.%202%20to%201%20MUX)
->     - 7 . [4 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/7.%204%20to%201%20MUX)
->     - 8 . [8 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/8.%208%20to%201%20MUX)
->     - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/9.%202%20to%204%20Decoder)
->     - 10 . [4 to 8 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/10.%203%20to%208%20Decoder) 
+>     - 1 . [Half Adder](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/001.%20Half%20Adder)
+>     - 2 . [Full Adder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/002.%20Full%20Adder)
+>     - 3 . [Half Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/003.%20Half%20Subtractor)
+>     - 4 . [Full Subtractor ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/004.%20Full%20Subtractor)
+>     - 5 . [Adder cum Subtractor](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/005.%20Adder%20cum%20subtractor)
+>     - 6 . [2 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/006.%202%20to%201%20MUX)
+>     - 7 . [4 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/007.%204%20to%201%20MUX)
+>     - 8 . [8 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/008.%208%20to%201%20MUX)
+>     - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/009.%202%20to%204%20Decoder)
+>     - 10 . [4 to 8 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/010.%203%20to%208%20Decoder) 
 >         
 >     </details>
 > 
