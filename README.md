@@ -42,7 +42,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 7 . [4 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/7.%204%20to%201%20MUX)
 >     - 8 . [8 to 1 MUX](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/8.%208%20to%201%20MUX)
 >     - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/9.%202%20to%204%20Decoder)
->     - 10 . [4 to 8 Decoder ]() 
+>     - 10 . [4 to 8 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/10.%203%20to%208%20Decoder) 
 >         
 >     </details>
 > 
