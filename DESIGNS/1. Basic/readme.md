@@ -8,6 +8,7 @@ Hope you go through these basics:
 - [NOR](<5. NOR Gate>)
 - [XOR](<6. XOR Gate>)
 - [XNOR](<7. XNOR Gate>)
+- [Tri-State Buffer](<8. TRI-STATE Buffer>)
 
 Then, Try out there questions:
 
@@ -128,4 +129,6 @@ Used for writing Testbenches
 > [!IMPORTANT]
 > **Remember**, practice makes perfect in Verilog programming. Keep coding and exploring!🎉
 
-[🏠HOME](../../README.md)
+[🏄🏼‍♀️ NEXT](<../2. Combinational>)
+
+[🏠 HOME](../../README.md)

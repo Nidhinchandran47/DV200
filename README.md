@@ -29,6 +29,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 5 . [NOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/5.%20NOR%20Gate)
 >     - 6 . [XOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/6.%20XOR%20Gate)
 >     - 7 . [XNOR Gate](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/1.%20Basic/7.%20XNOR%20Gate)
+>     - 8 . [Tri-State Buffer](<DESIGNS/1. Basic/8. TRI-STATE Buffer>)
 >        
 >     </details>
 > 
