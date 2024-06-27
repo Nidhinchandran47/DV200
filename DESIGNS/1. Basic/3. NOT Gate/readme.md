@@ -40,6 +40,13 @@ In Verilog, there are several ways to implement a NOT gate. Here are a few metho
 
    > [not_gate_primitive](not_gate_primitive.v)
 
+6. **Using Circuit Level Statements:**
+   Uses the primitive transisitors to model the transistor level implementation of a circuit.
+
+   >[circuit.v](circuit.v)
+   
+   ![alt text](image-1.png)
+
 Each method has its specific use case depending on the complexity of the design and the designer’s preference. For simple gates, the `assign` statement is most commonly used due to its simplicity and clarity. For more complex designs, other methods like `always` blocks or behavioral modeling might be more appropriate.
 
 
