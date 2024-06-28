@@ -14,12 +14,14 @@ The Verilog HDL value set consists of four basic values:
 > [!TIP]
 >There are two main groups of data types: the **variable** data types and the **net** data types.
 
-###  Net declarations
+##  Net declarations
 
 The net data types can represent physical connections between structural entities, such as gates. A net shall not store a value.Instead, its value shall be determined by the values of its drivers, such as a continuous assignment or a gate.  . If no driver is connected to a net, its value shall be high-impedance (z). The default initialization value for a net shall be the value z.
 
 Examples: `supply0 | supply1
 | tri | triand | trior | tri0 | tri1 | uwire | wire | wand | wor`
+
+[More about net in details](#net-type)
 
 ###  Variable declarations
 
@@ -70,6 +72,54 @@ trireg (small)signed [3:0] cap2; // signed 4-bit trireg vector of
                                  // charge strength small 
 ```
 
+#### Drive Strength
+
+The Verilog HDL provides for accurate modeling of signal contention, bidirectional pass gates, resistive MOS devices, dynamic MOS, charge sharing, and other technology-dependent network configurations by allowing scalar net signal values to have a full range of unknown values and different levels of strength or combinations of levels of strength. This multiple-level logic strength modeling resolves combinations of signals into known or unknown values to represent the behavior of hardware with improved accuracy.
+
+| **Strength Name** | **Strength Level** |
+| ---  | :---: |
+| supply0 | 7 |
+| strong0 | 6 | 
+| pull0 | 5 |
+| large0 | 4 |
+| weak0 | 3 |
+| medium0 | 2 |
+| small0 | 1 |
+| highz0 | 0 |
+| highz1 | 0 |
+| small1 | 1 |
+| medium1 | 2 |
+| weak1 | 3 |
+| large1 | 4 |
+| pull1 | 5 |
+| strong1 | 6 |
+| supply1 | 7 |
+
+![alt text](image.png)
+
+Combining unequal strengths
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+Combination of signals of equal strength and opposite values
+
+###  Net Type
+
+![alt text](image-3.png)
+
+The `wire` and `tri` nets connect elements. The net types `wire` and `tri` shall be identical in their syntax and functions; two names are provided so that the name of a net can indicate the purpose of the net in that model. A `wire` net can be used for nets that are driven by a single gate or continuous assignment. The `tri` net type can be used where multiple drivers drive a net.
+
+![alt text](image-4.png)
+
+Wired nets are of type wor, wand, trior, and triand and are used to model wired logic configurations. Wired nets use different truth tables to resolve the conflicts that result when multiple drivers drive the same net. The `wor` and `trior` nets shall create wired or configurations so that when any of the drivers is 1, the resulting value of the net is 1. The `wand` and `triand` nets shall create wired and configurations so that if any driver is 0, the value of the net is 0
+
+![alt text](image-5.png)![alt text](image-6.png)
+
+## Regs
+
+Assignments to a reg are made by procedural assignments. See [assignment](assignment.md).  Because the reg holds a value between assignments, it can be used to model hardware registers. Edge-sensitive (i.e., flip-flops) and level-sensitive (i.e., reset-set and transparent latches) storage elements can be modeled. A reg need not represent a hardware storage element because it can also be used to represent combinatorial logic. 
 
 ### **Parameters**
 
@@ -86,8 +136,7 @@ parameter newconst = 4;            // implied range of at least [31:0]
 
 **localparam** are identical to parameters except that they cannot directly be modified by **defparam** statements or module instance parameter value assignments.
 
-The keyword **specparam** declares a special type of parameter that is intended only for providing timing and
-delay values, but can appear in any expression that is not assigned to a parameter and is not part of the range
+The keyword **specparam** declares a special type of parameter that is intended only for providing timing and delay values, but can appear in any expression that is not assigned to a parameter and is not part of the range
 specification of a declaration.
 
 
