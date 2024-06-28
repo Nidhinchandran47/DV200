@@ -1,4 +1,6 @@
-# Operators
+# ⭕ Operators
+
+[Home🏠](readme.md)
 
 The symbols for the Verilog HDL operators are similar to those in the C programming language
 
@@ -169,3 +171,5 @@ but
 {1'bz{1'b0}} // illegal
 
 {1'bx{1'b0}} // illegal
+
+[Home🏠](readme.md)
