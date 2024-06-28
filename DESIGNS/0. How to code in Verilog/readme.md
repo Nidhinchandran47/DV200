@@ -1,13 +1,11 @@
 # 👣 How to code in Verilog ✍🏼
 
-**Verilog is a hardware description language (HDL)** that was standardized as IEEE Std 1364™-1995 and first revised as IEEE Std 1364-2001
+**Verilog is a hardware description language (HDL)** that was standardized as IEEE Std 1364-1995 and first revised as IEEE Std 1364-2001
 
-## INDEX 📂
-
-
+ ### INDEX 📂
 
 - [👣 How to code in Verilog ✍🏼](#-how-to-code-in-verilog-)
-  - [INDEX 📂](#index-)
+    - [INDEX 📂](#index-)
   - [Lexical Conventions 🔢](#lexical-conventions-)
   - [Data Type 🧩](#data-type-)
   - [Expression 🎲](#expression-)
@@ -31,15 +29,15 @@ Verilog HDL source text files shall be a stream of lexical tokens. A lexical tok
 characters. The layout of tokens in a source file shall be free format; that is, spaces and newlines shall not be
 syntactically significant other than being token separators, except for escaped identifiers
 
-| Tokens |
-| :--------: |
+|   Tokens    |
+| :---------: |
 | White space |
-| Comments |
-| Operator |
-| Numbers | 
-| String | 
-| Identifier |
-| Keyword |
+|  Comments   |
+|  Operator   |
+|   Numbers   |
+|   String    |
+| Identifier  |
+|   Keyword   |
 
 Here is more about [Lexical Tokens](Lexical%20Token.md)
 
@@ -116,7 +114,7 @@ There are build in primitives and switch which can be used to model hardware in 
 There are 14 logic gates and 12 switches
 
 | N input gates | N output gates | tri-state gates | pull gates | MOS switches | Bidirectional switches |
-|---------------|----------------|-----------------|------------|--------------|------------------------|
+| ------------- | -------------- | --------------- | ---------- | ------------ | ---------------------- |
 | and           | buf            | bufif0          | pulldown   | cmos         | rtran                  |
 | nand          | not            | bufif1          | pullup     | nmos         | rtranif0               |
 | nor           |                | notif0          |            | pmos         | rtranif1               |
