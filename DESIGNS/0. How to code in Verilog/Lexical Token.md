@@ -25,7 +25,7 @@ this too..
 and this toooo...*/
 But not this
 ```
-look! above `not` and `this` and in different colour. Thats due to there are [keywords]().
+look! above `not` is in different colour. Thats due to there are [keywords]().
 
 ## Operators
 
