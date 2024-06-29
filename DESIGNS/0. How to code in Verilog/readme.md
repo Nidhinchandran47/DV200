@@ -122,6 +122,17 @@ There are 14 logic gates and 12 switches
 | xnor          |                |                 |            | rnmos        | tranif0                |
 | or            |                |                 |            | rpmos        | tranif1                |
 
+A gate or a switch instance declaration shall have the following specifications:
+
+- The keyword that names the type of gate or switch primitive
+- An optional drive strength
+- An optional propagation delay
+- An optional identifier that names each gate or switch instance
+- An optional range for array of instances
+- The terminal connection list
+
+You can see more about Gate and Switch Level Modeling [here.](Gate%20and%20Switch.md)
+
 ## User-Defined Primitives (UDP) 🎓
 
 ## Behavioral Modeling 🎭
