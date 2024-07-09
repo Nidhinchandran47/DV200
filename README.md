@@ -48,7 +48,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 9 . [2 to 4 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/009.%202%20to%204%20Decoder)
 >     - 10 . [4 to 8 Decoder ](https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/2.%20Combinational/010.%203%20to%208%20Decoder) 
 >     - 11 . [1 to 4 DEMUX](<DESIGNS/2. Combinational/011. 1 to 4 DEMUX>) 
->
+>     - 12 . [1 to 8 DEMUX](<DESIGNS/2. Combinational/012. 1 to 8 DEMUX>)
+>     - 13 . [Bidirectional Buffer](<DESIGNS/2. Combinational/013. Bidirectional Buffer>)
 > 
 >     </details>
 > 
