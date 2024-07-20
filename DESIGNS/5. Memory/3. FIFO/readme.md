@@ -82,11 +82,12 @@ Write Frequency > Read Frequency  with idle clocks
 > </details>
 
 
-#### CASE 1
+#### CASE 3
 ~~~
-Write Frequency > Read Frequency
+Write Frequency < Read Frequency
 ~~~
 
 <details>
-    <summary>EXAMPLE</summary>
+    <summary>How to Proceed</summary>
+    Depth of 1 is sufficient.
 </details>
