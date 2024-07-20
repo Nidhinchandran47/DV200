@@ -56,8 +56,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 > - <details>
 >     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/5.%20Memory"> <b>Memory Elements </b> </a> 🔻 </summary>
 >     
->     - 1 .[Synchronous Dual-Port RAM](<DESIGNS/5. Memory/1. Sync Dualport RAM>) 
->     - 2 .
+>     - 1 . [Synchronous Dual-Port RAM](<DESIGNS/5. Memory/1. Sync Dualport RAM>) 
+>     - 2 . [Asynchronous Dual-Port RAM](<DESIGNS/5. Memory/2. Async Dualport RAM>)
 >     - 3 . [FIFO](<DESIGNS/5. Memory/3. FIFO>)
 > 
 > 
