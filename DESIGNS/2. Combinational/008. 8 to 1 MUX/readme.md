@@ -21,7 +21,7 @@ An 8-to-1 multiplexer (MUX) is a digital circuit that selects one of the eight i
   - When `S2S1S0` is `111`, `Y` is `I7`.
 
 $$
-Y = \overline{S2}\overline{S1}\overline{S0}I0 + \overline{S2}\overline{S1}S0I1 + \overline{S2}S1\overline{S0}I2 + \overline{S2}S1S0I3 + S2\overline{S1}\overline{S0}I4 + S2\overline{S1}S0I5 + S2S1\overline{S0}I6 + S2S1S0I7
+Y = \overline{S_2}\overline{S_1}\overline{S_0}I_0 + \overline{S_2}\overline{S_1}S_0I_1 + \overline{S_2}S_1\overline{S_0}I_2 + \overline{S_2}S_1S_0I_3 + S_2\overline{S_1}\overline{S_0}I_4 + S_2\overline{S_1}S_0I_5 + S_2S_1\overline{S_0}I_6 + S_2S_1S_0I_7
 $$
 
 #### Use Cases
