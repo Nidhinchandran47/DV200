@@ -47,7 +47,7 @@ Write Frequency > Read Frequency
 >
 > Number of data read during 1500ns  =  $\frac{1500}{20}$ = 75
 >
-> Number of Data needed to store in FIFO = 120(Total data) - 75(read Data) = 45
+> Number of Data needed to store in FIFO = 120(Total data) - 75(read Data) = **45**
 >
 > 
 > </details>
@@ -77,7 +77,7 @@ Write Frequency > Read Frequency  with idle clocks
 >
 > Number of data read during 1500ns  =  $\frac{3000}{80}$ = 37.5 = 37
 >
-> Number of Data needed to store in FIFO = 120(Total data) - 37(read Data) = 83
+> Number of Data needed to store in FIFO = 120(Total data) - 37(read Data) = **83**
 > 
 > </details>
 
@@ -89,5 +89,71 @@ Write Frequency < Read Frequency
 
 <details>
     <summary>How to Proceed</summary>
-    Depth of 1 is sufficient.
+    Depth of **1** is sufficient.
 </details>
+
+#### CASE 4
+~~~
+Write Frequency < Read Frequency  with idle clocks
+~~~
+
+> <details>
+>     <summary>How to Proceed</summary>
+>
+> ```
+> F write = 30MHz   F read = 50Mz   Burst Length = 120
+> 1 Idle clock between successive writes
+> 3 Idle clock between successive reads
+> ```
+>
+> 
+> Time required to write one data item with considering idle   = $2*\frac{1}{F_w}$ = $\frac{2}{30M}$ = 66.67 ns
+>
+> Time required for writing whole data = 120 * 66.67 = 8000 ns
+>
+> Time required to read one data item with considering idle  = $4*\frac{1}{F_r}$ = $\frac{4}{50M}$ = 80 ns
+>
+> Number of data read during 1500ns  =  $\frac{8000}{80}$ = 100
+>
+> Number of Data needed to store in FIFO = 120(Total data) - 100(read Data) = **20**
+> 
+> </details>
+
+#### CASE 5
+~~~
+Write Frequency = Read Frequency
+~~~
+
+<details>
+    <summary>How to Proceed</summary>
+    No need of FIFO if clock are on phase,
+    Depth of **1** is sufficient if clock are out of phase.
+</details>
+
+
+ #### CASE 6
+~~~
+Write Frequency = Read Frequency  with idle clocks
+~~~
+
+> <details>
+>     <summary>How to Proceed</summary>
+>
+> ```
+> F write = 50MHz   F read = 50Mz   Burst Length = 120
+> 1 Idle clock between successive writes
+> 3 Idle clock between successive reads
+> ```
+>
+> 
+> Time required to write one data item with considering idle   = $2*\frac{1}{F_w}$ = $\frac{2}{50M}$ = 40 ns
+>
+> Time required for writing whole data = 120 * 40 = 4800 ns
+>
+> Time required to read one data item with considering idle  = $4*\frac{1}{F_r}$ = $\frac{4}{50M}$ = 80 ns
+>
+> Number of data read during 1500ns  =  $\frac{4800}{80}$ = 60
+>
+> Number of Data needed to store in FIFO = 120(Total data) - 60(read Data) = 60
+> 
+> </details>
