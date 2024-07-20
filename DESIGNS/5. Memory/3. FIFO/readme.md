@@ -160,3 +160,11 @@ Write Frequency = Read Frequency  with idle clocks
 > Number of Data needed to store in FIFO = 120(Total data) - 60(read Data) = 60
 > 
 > </details>
+
+
+### Simulation Results
+
+![waveform](https://github.com/user-attachments/assets/97fe3909-9c55-4dad-b7fb-6539f1916f1a)
+
+![schematic](https://github.com/user-attachments/assets/866b4ebf-e435-445d-9aaa-9b36915fd3ea)
+
