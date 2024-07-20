@@ -50,6 +50,8 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 11 . [1 to 4 DEMUX](<DESIGNS/2. Combinational/011. 1 to 4 DEMUX>) 
 >     - 12 . [1 to 8 DEMUX](<DESIGNS/2. Combinational/012. 1 to 8 DEMUX>)
 >     - 13 . [Bidirectional Buffer](<DESIGNS/2. Combinational/013. Bidirectional Buffer>)
+>     - 14 . [Binary to Gray Converter](<DESIGNS/2. Combinational/014. 4-bit Binary to Gray Code Converter>)
+>
 > 
 >     </details>
 > 
