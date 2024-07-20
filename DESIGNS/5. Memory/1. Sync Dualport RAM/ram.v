@@ -17,9 +17,9 @@ module ram #(
             end
         end
         else begin
-            if (we == 1 && re == 0)
+            if (we == 1)
                 mem[wr_addr] <= data_in;
-            if (we == 0 && re == 1)
+            if (re == 1)
                 data_out <= mem[rd_addr];
         end
     end

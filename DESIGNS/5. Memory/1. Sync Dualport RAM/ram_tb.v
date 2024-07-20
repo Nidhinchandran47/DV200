@@ -1,4 +1,4 @@
-module dualport16x8_tb ();
+module ram_tb ();
     reg clk,rst,we,re;
     reg [ADDR_WIDTH-1:0] wr_addr, rd_addr;
     reg [DATA_WIDTH-1:0] data_in;

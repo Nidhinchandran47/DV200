@@ -7,3 +7,4 @@ A Synchronous Dual-Port RAM (SDPRAM) is a type of memory that allows simultaneou
 2. **Synchronous Operation:** Operates in sync with a clock signal, ensuring precise timing.
 3. **Read/Write Capabilities:** Each port can read from or write to the memory independently.
 
+You can find the [verilog code](ram.v) and [testbench](ram_tb.v) here.
