@@ -13,6 +13,9 @@ A sequential type of memory used to pass data between two asynchronous clock dom
 - Avoid **Underflow**
   - Writing is slower than reading.
 
+
+You can find the [code](fifo.v) and [testbench](fifo_tb.v) of FIFO here, before that you need to know how to calculate the depth of the fifo. 
+
 ## Depth Calculation
 
 Size of FIFO basically implies that how much data is required to buffer.
