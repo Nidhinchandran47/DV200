@@ -52,7 +52,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 13 . [Bidirectional Buffer](<DESIGNS/2. Combinational/013. Bidirectional Buffer>)
 >     - 14 . [Binary to Gray Converter](<DESIGNS/2. Combinational/014. 4-bit Binary to Gray Code Converter>)
 >     - 15 . [Gray to Binary Converter](<DESIGNS/2. Combinational/015. 4-bit Gray Code to Binary Converter>)
-> 
+>     - 16 . [Priority Encoder](<DESIGNS/2. Combinational/016. Priority Encoder>)
 > 
 >     </details>
 > 
@@ -62,6 +62,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 1 . [Synchronous Dual-Port RAM](<DESIGNS/5. Memory/1. Sync Dualport RAM>) 
 >     - 2 . [Asynchronous Dual-Port RAM](<DESIGNS/5. Memory/2. Async Dualport RAM>)
 >     - 3 . [FIFO](<DESIGNS/5. Memory/3. FIFO>)
+>     - 4 . [Singleport RAM](<DESIGNS/5. Memory/4. Singleport RAM>)
 > 
 > 
 
