@@ -92,7 +92,7 @@ Write Frequency < Read Frequency
 
 <details>
     <summary>How to Proceed</summary>
-    Depth of **1** is sufficient.
+    Depth of 1 is sufficient.
 </details>
 
 #### CASE 4
