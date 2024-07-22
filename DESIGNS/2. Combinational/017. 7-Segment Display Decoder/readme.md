@@ -2,6 +2,9 @@
 
 A 4-bit Binary-Coded Decimal (BCD) to 7-segment display decoder converts a BCD input to a format that can be displayed on a 7-segment display. Each of the 7 segments (labeled a through g) can be turned on or off to display numbers 0-9.
 
+![image](https://github.com/user-attachments/assets/98b33d65-6ab4-442d-9f2d-f52f6681093b)
+
+
 ### Truth Table
 
 | BCD | a | b | c | d | e | f | g |
