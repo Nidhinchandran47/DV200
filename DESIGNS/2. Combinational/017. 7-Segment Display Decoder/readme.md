@@ -30,21 +30,21 @@ Here you can find the [code](bcd_to_7seg.v) and [testbench](bcd_to_7seg_tb.v) fo
 The IC that decodes a 4-bit binary-coded decimal (BCD) to a 7-segment display is typically the 74LS47 or 7447. 
 
 ### Pinout:
-1. a - 7-segment segment a output B - BCD input B
-2. b - 7-segment segment b output C - BCD input C
-3. c - 7-segment segment c output LT - Lamp Test
-4. d - 7-segment segment d output
-5. e - 7-segment segment e output
-6. f - 7-segment segment f output
-7. g - 7-segment segment g output
+1. B - BCD input B
+2. C - BCD input C
+3. LT - Lamp Test
+4. BI/RBO - Blanking Input/Ripple Blanking Output
+5. RBI - Ripple Blanking Input
+6. D - BCD input D
+7. A - BCD input A
 8. GND - Ground
-9.
-10. BI/RBO - Blanking Input/Ripple Blanking Output
-11. RBI - Ripple Blanking Input
-12. D - BCD input D
-13.
-14. 
-15. A - BCD input A
+9. e - 7-segment segment e output
+10. d - 7-segment segment d output 
+11. c - 7-segment segment c output
+12. b - 7-segment segment b output
+13. a - 7-segment segment a output
+14. g - 7-segment segment g output 
+15. f - 7-segment segment f output
 16. Vcc - Supply Voltage
 
 Here is the [code](ic7447.v) and [testbench](ic7447_tb.v) for IC 7447.
