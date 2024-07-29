@@ -23,8 +23,8 @@ This is how **SR Latch** evolved. Latch is a one bit storage element cell which 
 - Here is the [verilog code](sr_latch.v) and [testbench](sr_nor_tb.v) for a SR Latch using NOR Gate.
 -  [verilog code](sr_nand.v) and [testbench](sr_nand_tb.v) for a SR Latch using NAND Gate.
   
-
 ## Gated SR Latch
+
 A Gated SR latch is a SR latch with enable input which works when enable is 1 and retain the previous state when enable is 0. 
 
 | Enable | S   | R   | Q   | Qb  |
