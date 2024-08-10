@@ -1,4 +1,4 @@
-module siso (
+module piso (
     input [3:0] in,
     input rst, clk, ld,
     output reg out
