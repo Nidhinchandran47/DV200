@@ -5,3 +5,5 @@ A ripple carry adder is a basic digital circuit used for adding two binary numbe
 [RTL](rca.v)
 
 [Testbench](rc_adder_tb.v)
+
+![alt text](image.png)
