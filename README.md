@@ -57,7 +57,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     </details>
 >
 > - <details>
->     <summary>  ▣ <a href=""> <b>Arithematic Circuits </b> </a> 🔻 </summary>
+>     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/4.%20Arithematic%20Circuits"> <b>Arithematic Circuits </b> </a> 🔻 </summary>
 >     
 >     - 1 . [ Ripple Carry Adder](<DESIGNS/4. Arithematic Circuits/01. Ripple Carry Adder>)
 >     - 2 . [Carry Look Ahead Adder](<DESIGNS/4. Arithematic Circuits/02. Carry Look Ahead Adder>)
