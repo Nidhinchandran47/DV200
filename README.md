@@ -55,6 +55,14 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 16 . [Priority Encoder](<DESIGNS/2. Combinational/016. Priority Encoder>)
 > 
 >     </details>
+>
+> - <details>
+>     <summary>  ▣ <a href=""> <b>Arithematic Circuits </b> </a> 🔻 </summary>
+>     
+>     - 1 . [ Ripple Carry Adder](<DESIGNS/4. Arithematic Circuits/01. Ripple Carry Adder>)
+>     - 2 . [Carry Look Ahead Adder](<DESIGNS/4. Arithematic Circuits/02. Carry Look Ahead Adder>)
+>     - 3 . [Carry Save Adder](<DESIGNS/4. Arithematic Circuits/03. Carry Save Adder>)
+> 
 > 
 > - <details>
 >     <summary>  ▣ <a href="https://github.com/Nidhinchandran47/DV200/tree/main/DESIGNS/5.%20Memory"> <b>Memory Elements </b> </a> 🔻 </summary>
