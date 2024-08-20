@@ -17,3 +17,6 @@ A 4-bit subtractor can be constructed by using an adder with the concept of two'
 This method allows subtraction to be performed efficiently using a standard adder circuit.
 
 Find [the verilog code](sub.v) here.
+
+
+
