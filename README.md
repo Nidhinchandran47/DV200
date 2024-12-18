@@ -71,8 +71,10 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 2 . [Asynchronous Dual-Port RAM](<DESIGNS/5. Memory/2. Async Dualport RAM>)
 >     - 3 . [FIFO](<DESIGNS/5. Memory/3. FIFO>)
 >     - 4 . [Singleport RAM](<DESIGNS/5. Memory/4. Singleport RAM>)
-> 
-> 
+>
+>
+> - ▣ [VERIFICATION](VERIFICATION)
+
 
 ## Why DV200? 🤔
 DV200 is more than just a collection of RTL designs. It's an educational playground:

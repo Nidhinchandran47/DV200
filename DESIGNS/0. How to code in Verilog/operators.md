@@ -57,7 +57,7 @@ As you know, the above two expressions are not the same. Each operator have diff
 ### BItwise Opertions
 
 | & | 0 | 1 | x | z |
-| --- | --- | --- | --- | ---|
+| --- | --- | --- | --- | -----|
 | 0 | 0 | 0 | 0 | 0 |
 | 1 | 0 | 1 | x | x |
 | x | 0 | x | x | x |
