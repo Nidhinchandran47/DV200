@@ -22,15 +22,7 @@ help:
 	@echo "! clean   	=>  clean the earlier log and intermediate files.                                          !"
 	@echo "! sv_cmp    	=>  Create library and compile the code.                                                   !"
 	@echo "! run_test	=>  clean, compile & run the simulation for Small Packet in batch mode.                    !" 
-	@echo "! run_test1	=>  clean, compile & run the simulation for Medium Packet in batch mode.                   !" 
-	@echo "! run_test2	=>  clean, compile & run the simulation for Error packet in batch mode.                    !"
-	@echo "! run_test3	=>  clean, compile & run the simulation for Big Packet in batch mode.	                   !" 
-	@echo "! run_test4	=>  clean, compile & run the simulation for Soft reset Packet in batch mode.               !" 
 	@echo "! view_wave  =>  To view the waveform of Small Packet                                                      !" 
-	@echo "! view_wave1 =>  To view the waveform of Medium Packet                                                     !" 
-	@echo "! view_wave2 =>  To view the waveform of Error Packet                                                      !" 
-	@echo "! view_wave3 =>  To view the waveform of Big Packet                                                        !" 
-	@echo "! view_wave4 =>  To view the waveform of Soft reset Packet                                                 !" 
 	@echo "! regress    =>  clean, compile and run all testcases in batch mode.                                       !"
 	@echo "! report     =>  To merge coverage reports for all testcases and  convert to html format.                  !"
 	@echo "! cov        =>  To open merged coverage report in html format.                                            !"
@@ -39,15 +31,7 @@ help:
 clean : clean_$(SIMULATOR)
 sv_cmp : sv_cmp_$(SIMULATOR)
 run_test : run_test_$(SIMULATOR)
-run_test1 : run_test1_$(SIMULATOR)
-run_test2 : run_test2_$(SIMULATOR)
-run_test3 : run_test3_$(SIMULATOR)
-run_test4 : run_test4_$(SIMULATOR)
 view_wave : view_wave1_$(SIMULATOR)
-view_wave1 : view_wave2_$(SIMULATOR)
-view_wave2 : view_wave3_$(SIMULATOR)
-view_wave3 : view_wave4_$(SIMULATOR)
-view_wave4 : view_wave5_$(SIMULATOR)
 regress : regress_$(SIMULATOR)
 report : report_$(SIMULATOR)
 cov : cov_$(SIMULATOR)
@@ -63,37 +47,13 @@ run_test_Questa: sv_cmp
 	vsim -cvgperinstance $(VSIMOPT) $(VSIMCOV) $(VSIMBATCH1)  -wlf wave_file1.wlf -l test1.log  -sv_seed random  work.top +UVM_TESTNAME=counter_test_1
 	vcover report  -cvg  -details -nocompactcrossbins -codeAll -assert -directive -html mem_cov1
 	
-run_test1_Questa: sv_cmp
-	vsim -cvgperinstance $(VSIMOPT) $(VSIMCOV) $(VSIMBATCH2)  -wlf wave_file2.wlf -l test2.log  -sv_seed random  work.top +UVM_TESTNAME=router_med_test
-	vcover report  -cvg  -details -nocompactcrossbins -codeAll -assert -directive -html mem_cov2
 	
-run_test2_Questa: sv_cmp
-	vsim -cvgperinstance $(VSIMOPT) $(VSIMCOV) $(VSIMBATCH3)  -wlf wave_file3.wlf -l test3.log  -sv_seed random  work.top +UVM_TESTNAME=router_error_test
-	vcover report  -cvg  -details -nocompactcrossbins -codeAll -assert -directive -html mem_cov3
 	
-run_test3_Questa: sv_cmp
-	vsim -cvgperinstance $(VSIMOPT) $(VSIMCOV) $(VSIMBATCH4)  -wlf wave_file4.wlf -l test4.log  -sv_seed random  work.top +UVM_TESTNAME=router_big_test
-	vcover report  -cvg  -details -nocompactcrossbins -codeAll -assert -directive -html mem_cov4
 
-run_test4_Questa: sv_cmp
-	vsim -cvgperinstance $(VSIMOPT) $(VSIMCOV) $(VSIMBATCH4)  -wlf wave_file5.wlf -l test5.log  -sv_seed random  work.top +UVM_TESTNAME=router_soft_test
-	vcover report  -cvg  -details -nocompactcrossbins -codeAll -assert -directive -html mem_cov5
 	
 view_wave1_Questa:
 	vsim -view wave_file1.wlf
 	
-view_wave2_Questa:
-	vsim -view wave_file2.wlf
-	
-view_wave3_Questa:
-	vsim -view wave_file3.wlf
-	
-view_wave4_Questa:
-	vsim -view wave_file4.wlf
-	
-view_wave5_Questa:
-	vsim -view wave_file5.wlf
-
 report_Questa:
 	vcover merge mem_cov mem_cov1 mem_cov2 mem_cov3 mem_cov4 mem_cov5
 	vcover report -cvg -details -nocompactcrossbins -codeAll -assert -directive -html mem_cov
@@ -118,36 +78,12 @@ run_test_VCS:	clean  sv_cmp_VCS
 	./simv -a vcs.log +fsdbfile+wave1.fsdb -cm_dir ./mem_cov1 +ntb_random_seed_automatic +UVM_TESTNAME=router_small_test 
 	urg -dir mem_cov1.vdb -format both -report urgReport1
 	
-run_test1_VCS:	
-	./simv -a vcs.log +fsdbfile+wave2.fsdb -cm_dir ./mem_cov2 +ntb_random_seed_automatic +UVM_TESTNAME=router_med_test 
-	urg -dir mem_cov2.vdb -format both -report urgReport2
 	
-run_test2_VCS:	
-	./simv -a vcs.log +fsdbfile+wave3.fsdb -cm_dir ./mem_cov3 +ntb_random_seed_automatic +UVM_TESTNAME=router_error_test 
-	urg -dir mem_cov3.vdb -format both -report urgReport3
 	
-run_test3_VCS:	
-	./simv -a vcs.log +fsdbfile+wave4.fsdb -cm_dir ./mem_cov4 +ntb_random_seed_automatic +UVM_TESTNAME=router_big_test 
-	urg -dir mem_cov4.vdb -format both -report urgReport4
 	
-run_test4_VCS:	
-	./simv -a vcs.log +fsdbfile+wave5.fsdb -cm_dir ./mem_cov5 +ntb_random_seed_automatic +UVM_TESTNAME=router_soft_test 
-	urg -dir mem_cov5.vdb -format both -report urgReport5
 	
 view_wave1_VCS: 
 	verdi -ssf wave1.fsdb
-	
-view_wave2_VCS: 
-	verdi -ssf wave2.fsdb
-
-view_wave3_VCS: 
-	verdi -ssf wave3.fsdb
-
-view_wave4_VCS: 
-	verdi -ssf wave4.fsdb		
-
-view_wave5_VCS: 
-	verdi -ssf wave5.fsdb		
 	
 report_VCS:
 	urg -dir mem_cov1.vdb mem_cov2.vdb mem_cov3.vdb mem_cov4.vdb mem_cov5.vdb -dbname merged_dir/merged_test -format both -report urgReport

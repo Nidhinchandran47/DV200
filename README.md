@@ -73,7 +73,7 @@ The structure of the DV200 repository is designed for clarity and ease of use:
 >     - 4 . [Singleport RAM](<DESIGNS/5. Memory/4. Singleport RAM>)
 >
 >
-> - ▣ [VERIFICATION](VERIFICATION)
+> - ▣ [**VERIFICATION**](VERIFICATION)
 
 
 ## Why DV200? 🤔
